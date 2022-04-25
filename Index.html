@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Javascript.js" defer></script>
+    <link rel=" stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div id="parent">
+        <!--NAV BAR-->
+        <div id="nav">
+            <div id="lnav">
+                <img id="logo" src="LOGO.png" alt="">
+                <div>CORONA</div>
+            </div>
+            <div id="rnav">
+                <button class="linav" href="#Home">Home</button>
+                <button class="linav" href="#Product">Product</button>
+                <button class="linav" href="#Services">Services</button>
+                <button class="linav" href="#About">About</button>
+                <div class="dropdown" data-dropdown>
+                    <button class="linav" data-dropdown-button><img src="DASHES.png" id="navimg" alt=""></button>
+                    <div class="dropdown-menu">
+                        Dropdown Content
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="herocontent">
+                <h2 class="hhero">Covid-19</h2>
+                <p class="phero"> Coronavirus disease 2019 (COVID-19) is a contagious disease caused by a virus, the
+                    severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The first known case was identified in
+                    Wuhan, China, in December 2019. The disease has since spread worldwide, leading to the ongoing
+                    COVID-19 pandemic.
+                </p>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="swiper mySwiper cardscontainer">
+                <div class="swiper-wrapper card-holder">
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="USA.png" alt="">
+                            </div>
+                            <h2 class="country">USA</h2>
+                            <h5 class="rank">#1</h5>
+                            <h3 class="count">80,869,032</h3>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="USA.png" alt="">
+                            </div>
+                            <h2 class="country">USA</h2>
+                            <h5 class="rank">#1</h5>
+                            <h3 class="count">80,869,032</h3>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="USA.png" alt="">
+                            </div>
+                            <h2 class="country">USA</h2>
+                            <h5 class="rank">#1</h5>
+                            <h3 class="count">80,869,032</h3>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="USA.png" alt="">
+                            </div>
+                            <h2 class="country">USA</h2>
+                            <h5 class="rank">#1</h5>
+                            <h3 class="count">80,869,032</h3>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="USA.png" alt="">
+                            </div>
+                            <h2 class="country">USA</h2>
+                            <h5 class="rank">#1</h5>
+                            <h3 class="count">80,869,032</h3>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="USA.png" alt="">
+                            </div>
+                            <h2 class="country">USA</h2>
+                            <h5 class="rank">#1</h5>
+                            <h3 class="count">80,869,032</h3>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="USA.png" alt="">
+                            </div>
+                            <h2 class="country">USA</h2>
+                            <h5 class="rank">#1</h5>
+                            <h3 class="count">80,869,032</h3>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="USA.png" alt="">
+                            </div>
+                            <h2 class="country">USA</h2>
+                            <h5 class="rank">#1</h5>
+                            <h3 class="count">80,869,032</h3>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="USA.png" alt="">
+                            </div>
+                            <h2 class="country">USA</h2>
+                            <h5 class="rank">#1</h5>
+                            <h3 class="count">80,869,032</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    slidesPerGroup: 3,
+                    loop: true,
+                    loopFillGroupWithBlank: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
